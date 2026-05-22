@@ -123,7 +123,10 @@ def save_csv(rows: List[list], name: str, date_str: str) -> Path:
             stamp = datetime.strptime(date_str.strip(), "%m/%d/%Y").strftime("%Y-%m-%d")
         except ValueError:
             stamp = datetime.now().strftime("%Y-%m-%d")
-    path = DATA_DIR / f"cot_{name}_{stamp}.csv"
+    year = stamp[:4]
+    # data/YYYY/report_type/cot_type_YYYY-MM-DD.csv
+    path = DATA_DIR / year / name / f"cot_{name}_{stamp}.csv"
+    path.parent.mkdir(parents=True, exist_ok=True)
     with open(path, "w", newline="", encoding="utf-8") as f:
         csv.writer(f).writerows(rows)
     return path
