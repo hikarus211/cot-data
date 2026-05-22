@@ -1,0 +1,35 @@
+name: Fetch COT Data
+
+on:
+  schedule:
+    - cron: '0 21 * * 5'   # Every Friday at 21:00 UTC = 4-5 PM ET (≥90 min after CFTC publishes)
+  workflow_dispatch:        # Allow manual trigger from GitHub UI
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Fetch COT data from CFTC
+        env:
+          COT_OUTPUT_DIR: ${{ github.workspace }}
+        run: python fetch_cot.py
+
+      - name: Commit updated cot_summary.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add cot_summary.json
+          git diff --staged --quiet || git commit -m "COT update $(date +%Y-%m-%d)"
+          git push
