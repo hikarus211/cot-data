@@ -1,0 +1,78 @@
+{
+  "report_date": "2026-05-12",
+  "generated_at": "2026-05-22T00:18:38.592210Z",
+  "tff": {
+    "BTC": {
+      "oi": 23535,
+      "lev_net": -11070,
+      "lev_chg": 668,
+      "am_net": 5800,
+      "am_chg": -387
+    },
+    "ETH": {
+      "oi": 31749,
+      "lev_net": -10404,
+      "lev_chg": 3189,
+      "am_net": -536,
+      "am_chg": -1896
+    },
+    "EUR": {
+      "oi": 829377,
+      "lev_net": 18003,
+      "lev_chg": 6157,
+      "am_net": 290280,
+      "am_chg": 4667
+    },
+    "JPY": {
+      "oi": 362042,
+      "lev_net": -62440,
+      "lev_chg": -9543,
+      "am_net": -19992,
+      "am_chg": -9396
+    },
+    "GBP": {
+      "oi": 283643,
+      "lev_net": 37302,
+      "lev_chg": 11253,
+      "am_net": -93150,
+      "am_chg": 9480
+    },
+    "AUD": {
+      "oi": 289244,
+      "lev_net": 55851,
+      "lev_chg": -749,
+      "am_net": 47551,
+      "am_chg": 2677
+    },
+    "CAD": {
+      "oi": 251467,
+      "lev_net": -37663,
+      "lev_chg": 10095,
+      "am_net": 23768,
+      "am_chg": -6022
+    },
+    "CHF": {
+      "oi": 94743,
+      "lev_net": -7708,
+      "lev_chg": -1074,
+      "am_net": -37771,
+      "am_chg": -158
+    }
+  },
+  "disagg": {
+    "GOLD": {
+      "oi": 376496,
+      "mm_net": -7437,
+      "mm_chg": -55887,
+      "prod_net": -20202,
+      "prod_chg": 5968
+    },
+    "SILVER": {
+      "oi": 103800,
+      "mm_net": -3189,
+      "mm_chg": -6759,
+      "prod_net": -19632,
+      "prod_chg": 372
+    }
+  }
+}
