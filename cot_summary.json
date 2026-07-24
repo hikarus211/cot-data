@@ -1,78 +1,78 @@
 {
-  "report_date": "2026-07-14",
-  "generated_at": "2026-07-17T21:52:17.885866Z",
+  "report_date": "2026-07-21",
+  "generated_at": "2026-07-24T22:02:55.498378Z",
   "tff": {
     "BTC": {
-      "oi": 19385,
-      "lev_net": -7491,
-      "lev_chg": -774,
-      "am_net": 2815,
-      "am_chg": 430
+      "oi": 20527,
+      "lev_net": -7949,
+      "lev_chg": -458,
+      "am_net": 2727,
+      "am_chg": -88
     },
     "ETH": {
-      "oi": 22539,
-      "lev_net": -7961,
-      "lev_chg": -652,
-      "am_net": -1406,
-      "am_chg": 703
+      "oi": 23667,
+      "lev_net": -7053,
+      "lev_chg": 908,
+      "am_net": -2420,
+      "am_chg": -1014
     },
     "EUR": {
-      "oi": 799495,
-      "lev_net": -53691,
-      "lev_chg": -8230,
-      "am_net": 247316,
-      "am_chg": -6602
+      "oi": 800061,
+      "lev_net": -56671,
+      "lev_chg": -2980,
+      "am_net": 228927,
+      "am_chg": -18389
     },
     "JPY": {
-      "oi": 396514,
-      "lev_net": -90461,
-      "lev_chg": -378,
-      "am_net": -53817,
-      "am_chg": -5164
+      "oi": 423796,
+      "lev_net": -96185,
+      "lev_chg": -5724,
+      "am_net": -79906,
+      "am_chg": -26089
     },
     "GBP": {
-      "oi": 265153,
-      "lev_net": 28541,
-      "lev_chg": 10562,
-      "am_net": -131404,
-      "am_chg": 11853
+      "oi": 262281,
+      "lev_net": 33236,
+      "lev_chg": 4695,
+      "am_net": -119089,
+      "am_chg": 12315
     },
     "AUD": {
-      "oi": 208457,
-      "lev_net": 27222,
-      "lev_chg": -2461,
-      "am_net": -40569,
-      "am_chg": -3266
+      "oi": 225153,
+      "lev_net": 24788,
+      "lev_chg": -2434,
+      "am_net": -35144,
+      "am_chg": 5425
     },
     "CAD": {
-      "oi": 368792,
-      "lev_net": -92771,
-      "lev_chg": -6814,
-      "am_net": -106487,
-      "am_chg": 1856
+      "oi": 365599,
+      "lev_net": -98377,
+      "lev_chg": -5606,
+      "am_net": -98165,
+      "am_chg": 8322
     },
     "CHF": {
-      "oi": 108412,
-      "lev_net": -9500,
-      "lev_chg": -2282,
-      "am_net": -41589,
-      "am_chg": 1719
+      "oi": 107866,
+      "lev_net": -8897,
+      "lev_chg": 603,
+      "am_net": -37558,
+      "am_chg": 4031
     }
   },
   "disagg": {
     "GOLD": {
-      "oi": 383689,
-      "mm_net": -2349,
-      "mm_chg": -71930,
-      "prod_net": -19149,
-      "prod_chg": 9812
+      "oi": 383368,
+      "mm_net": -1216,
+      "mm_chg": -65426,
+      "prod_net": -19321,
+      "prod_chg": 9923
     },
     "SILVER": {
-      "oi": 105023,
-      "mm_net": -922,
-      "mm_chg": -11717,
-      "prod_net": -12708,
-      "prod_chg": -1772
+      "oi": 106410,
+      "mm_net": -712,
+      "mm_chg": -10903,
+      "prod_net": -13044,
+      "prod_chg": -2686
     }
   }
 }
